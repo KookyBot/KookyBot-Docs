@@ -54,12 +54,12 @@ exclude_patterns = []
 # -- Options for sphinx-intl -------------------------------------------------
 
 # https://docs.readthedocs.io/en/stable/builds.html#build-environment
-# available languages: en_US, zh_CN
-language = os.environ.get('READTHEDOCS_LANGUAGE', 'en_US')
+# available languages: en, zh_CN
+language = os.environ.get('READTHEDOCS_LANGUAGE', 'en')
 
 # To update locale files, execute these in source directory:
 # sphinx-build -b gettext . _locale           # Generate file structures
-# sphinx-intl update -p _locale -l en_US      # Update translation files
+# sphinx-intl update -p _locale -l en      # Update translation files
 
 # po files will be created in this directory
 # path is example but recommended.

@@ -31,21 +31,21 @@ make clean
 make html
 ```
 
-The documentation will be generated in `docs/html` directory in `en_US (English (US)).
+The documentation will be generated in `docs/html` directory in `en (English).
 
-If you need to change the language of the generated documentation, you can modify the `en_US` of `language = os.environ.get('READTHEDOCS_LANGUAGE', 'en_US')` of line 58 of `source/conf.py` file to your designated language.
+If you need to change the language of the generated documentation, you can modify the `en` of `language = os.environ.get('READTHEDOCS_LANGUAGE', 'en')` of line 58 of `source/conf.py` file to your designated language.
 
 ### Update the translation files
 
-(This step uses Simplified Chinese as an example, if you need to use other languages, replace `en_US` with your designated language)
+(This step uses Simplified Chinese as an example, if you need to use other languages, replace `en` with your designated language)
 
 ``` bash
 cd source
 sphinx-build -b gettext . _locale
-sphinx-intl update -p _locale -l en_US
+sphinx-intl update -p _locale -l en
 ```
 
-This step will generate some `.po` files in `source/_locale/en_US` directory, which will be used to store the translation content:
+This step will generate some `.po` files in `source/_locale/en` directory, which will be used to store the translation content:
 
 - Empty translations will be generated for new content.
 - `#, fuzzy` comments will be added to the translation for changed texts. Update the translation and remove the `#, fuzzy` comment.
