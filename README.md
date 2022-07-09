@@ -56,7 +56,7 @@ sphinx-intl update -p _locale -l en_US
 > **KookyBot-Docs 的内容基于 [CC-BY-NC-SA-4.0 许可证](license-translations/LICENSE-zh)（[原文](LICENSE)）发行**
 
 ``` text
-KookyBot-Docs (c) 由 iXOR Techbology, Cubik65536, 以及 所有贡献者 创作.
+KookyBot-Docs (c) 由 KookyBot organization, zly2006, Cubik65536 以及 所有贡献者 创作.
 
 KookyBot-Docs 根据知识共享（Creative Commons）
 署名—非商业性使用—相同方式共享 4.0 公共许可协议进行分发。
@@ -69,7 +69,7 @@ KookyBot-Docs 根据知识共享（Creative Commons）
 
 ``` text
 KookyBot-Docs - KookyBot SDK 文档
-Copyright (C) 2022 CubikTech, Cubik65536 以及 所有贡献者 版权所有。
+Copyright (C) 2022 KookyBot organization, zly2006, Cubik65536 以及 所有贡献者 版权所有。
 
 本程序是自由软件：你可以根据自由软件基金会发布的 GNU Affero 通用公共许可证的条款，
 即许可证的第3版或（您选择的）任何后来的版本重新发布它和/或修改它。

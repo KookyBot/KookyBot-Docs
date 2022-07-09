@@ -56,7 +56,7 @@ This step will generate some `.po` files in `source/_locale/en_US` directory, wh
 > **Contents of KookyBot-Docs are licensed under [CC-BY-NC-SA-4.0 License](LICENSE).**
 
 ``` text
-KookyBot-Docs (c) by CubikTech, Cubik65536, and contributors.
+KookyBot-Docs (c) by KookyBot organization, zly2006, Cubik65536, and contributors.
 
 KookyBot-Docs is licensed under a
 Creative Commons Attribution-NonCommercial 4.0 International License.
@@ -69,7 +69,7 @@ work. If not, see <http://creativecommons.org/licenses/by-nc/4.0/>.
 
 ``` text
 KookyBot-Docs - Documentations of KookyBot SDK
-Copyright (C) 2022 CubikTech, Cubik65536, and contributors.
+Copyright (C) 2022 KookyBot organization, zly2006, Cubik65536, and contributors.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published
