@@ -1,9 +1,9 @@
 **中文** | [English](README.en.md)
 
-<h1 align="center">ReadtheDocsTemplate</h1>
+<h1 align="center">KookyBot-Docs</h1>
 
 <p align="center">
-  <b>https://readthedocs.org 托管文档仓库模板</b>
+  <b>KookyBot SDK 文档</b>
 </p>
 
 <p align="center">
@@ -53,22 +53,22 @@ sphinx-intl update -p _locale -l en_US
 
 ## 📜 协议&许可证
 
-> **ReadtheDocsTemplate 的内容基于 [CC-BY-NC-SA-4.0 许可证](license-translations/LICENSE-zh)（[原文](LICENSE)）发行**
+> **KookyBot-Docs 的内容基于 [CC-BY-NC-SA-4.0 许可证](license-translations/LICENSE-zh)（[原文](LICENSE)）发行**
 
 ``` text
-ReadtheDocsTemplate (c) 由 iXOR Techbology, Cubik65536, 以及 所有贡献者 创作.
+KookyBot-Docs (c) 由 iXOR Techbology, Cubik65536, 以及 所有贡献者 创作.
 
-ReadtheDocsTemplate 根据知识共享（Creative Commons）
+KookyBot-Docs 根据知识共享（Creative Commons）
 署名—非商业性使用—相同方式共享 4.0 公共许可协议进行分发。
 
 您应该已经收到了一份许可证的副本。如果没有，
 请参见 <http://creativecommons.org/licenses/by-nc/4.0/>。
 ```
 
-> **ReadtheDocsTemplate 的代码使用 [AGPL-3.0-or-later 协议](license-translations/LICENSE-zh.CODE)（[原文](LICENSE.CODE)）作为软件分发许可证**
+> **KookyBot-Docs 的代码使用 [AGPL-3.0-or-later 协议](license-translations/LICENSE-zh.CODE)（[原文](LICENSE.CODE)）作为软件分发许可证**
 
 ``` text
-ReadtheDocsTemplate - https://readthedocs.org 托管文档仓库模板
+KookyBot-Docs - KookyBot SDK 文档
 Copyright (C) 2022 CubikTech, Cubik65536 以及 所有贡献者 版权所有。
 
 本程序是自由软件：你可以根据自由软件基金会发布的 GNU Affero 通用公共许可证的条款，

@@ -1,9 +1,9 @@
 [中文](README.md) | **English**
 
-<h1 align="center">ReadtheDocsTemplate</h1>
+<h1 align="center">KookyBot-Docs</h1>
 
 <p align="center"> 
-  <b>Template for documentation hosted on https://readthedocs.org</b>
+  <b>Documentations of KookyBot SDK</b>
 </p>
 
 <p align="center">
@@ -53,22 +53,22 @@ This step will generate some `.po` files in `source/_locale/en_US` directory, wh
 
 ## 📜 License
 
-> **Contents of ReadtheDocsTemplate are licensed under [CC-BY-NC-SA-4.0 License](LICENSE).**
+> **Contents of KookyBot-Docs are licensed under [CC-BY-NC-SA-4.0 License](LICENSE).**
 
 ``` text
-ReadtheDocsTemplate (c) by CubikTech, Cubik65536, and contributors.
+KookyBot-Docs (c) by CubikTech, Cubik65536, and contributors.
 
-ReadtheDocsTemplate is licensed under a
+KookyBot-Docs is licensed under a
 Creative Commons Attribution-NonCommercial 4.0 International License.
 
 You should have received a copy of the license along with this
 work. If not, see <http://creativecommons.org/licenses/by-nc/4.0/>.
 ```
 
-> **Codes of ReadtheDocsTemplate uses [AGPL-3.0-or-later License](LICENSE.CODE) as software license.**
+> **Codes of KookyBot-Docs uses [AGPL-3.0-or-later License](LICENSE.CODE) as software license.**
 
 ``` text
-ReadtheDocsTemplate - Template for documentation hosted on https://readthedocs.org
+KookyBot-Docs - Documentations of KookyBot SDK
 Copyright (C) 2022 CubikTech, Cubik65536, and contributors.
 
 This program is free software: you can redistribute it and/or modify
