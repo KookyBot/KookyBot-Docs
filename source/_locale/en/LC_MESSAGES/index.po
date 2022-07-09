@@ -60,7 +60,7 @@ msgstr "KOOK"
 
 #: ../index.md:7
 msgid "KookyBot - JVM 平台上的 KOOK (原开黑啦) Bot SDK"
-msgstr "KookyBot - An Bot SDK for KOOK (formally KaiHeiLa) for JVM platforms."
+msgstr "KookyBot - An Bot SDK for KOOK (formerly known as KaiHeiLa) for JVM platforms."
 
 #: ../index.md:19
 msgid "开发计划"
