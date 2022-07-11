@@ -24,6 +24,16 @@ quick-start/index
 <br/>
 &#9744;&#160;登录状态机稳定的自动重连
 
+### 事件
+
+&#9744;&#160;guild_member_online / guild_member_offline
+<br/>
+&#9744;&#160;user_updated
+<br/>
+&#9744;&#160;pinned_message / unpinned_message
+<br/>
+&#9745;&#160;其余事件
+
 ## 开源协议提示
 
 本项目由AGPL v3协议开源。

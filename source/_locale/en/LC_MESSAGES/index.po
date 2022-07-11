@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KookyBot \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-09 15:44-0400\n"
-"PO-Revision-Date: 2022-07-09 15:13-0400\n"
+"POT-Creation-Date: 2022-07-11 16:24-0400\n"
+"PO-Revision-Date: 2022-07-11 16:24-0400\n"
 "Last-Translator: Cubik65536 <cubik65536@cubik65536.top>\n"
 "Language: en\n"
 "Language-Team: English\n"
@@ -46,21 +46,23 @@ msgstr ""
 "[![KOOK](https://img.shields.io/badge/KOOK%20Server%2dKookyBot-%237289DA.svg?style"
 "=for-the-badge&color=7ACC35)](https://kook.top/wnWOP9)"
 
-#: ../index.md:3:<translated>:1
+#: ../index.md:3
 msgid "LICENSE"
 msgstr "LICENSE"
 
-#: ../index.md:3:<translated>:1
+#: ../index.md:3
 msgid "GitHub"
 msgstr "GitHub"
 
-#: ../index.md:3:<translated>:1
+#: ../index.md:3
 msgid "KOOK"
 msgstr "KOOK"
 
 #: ../index.md:7
 msgid "KookyBot - JVM 平台上的 KOOK (原开黑啦) Bot SDK"
-msgstr "KookyBot - An Bot SDK for KOOK (formerly known as KaiHeiLa) for JVM platforms."
+msgstr ""
+"KookyBot - An Bot SDK for KOOK (formerly known as KaiHeiLa) for JVM "
+"platforms."
 
 #: ../index.md:19
 msgid "开发计划"
@@ -71,18 +73,33 @@ msgid ""
 "&#9744;&#160;完整缓存模型 <br/> &#9744;&#160;缓存模型自动更新 <br/> "
 "&#9744;&#160;登录状态机稳定的自动重连"
 msgstr ""
-"&#9744;&#160;Complete cache model<br/> &#9744;&#160;Automatic cache model update <br/> "
-"&#9744;&#160;Stable automatic reconnection of login state machine"
+"&#9744;&#160;Complete cache model<br/> &#9744;&#160;Automatic cache model"
+" update <br/> &#9744;&#160;Stable automatic reconnection of login state "
+"machine"
 
 #: ../index.md:27
+msgid "事件"
+msgstr "Events"
+
+#: ../index.md:29
+msgid ""
+"&#9744;&#160;guild_member_online / guild_member_offline <br/> "
+"&#9744;&#160;user_updated <br/> &#9744;&#160;pinned_message / "
+"unpinned_message <br/> &#9745;&#160;其余事件"
+msgstr ""
+"&#9744;&#160;guild_member_online / guild_member_offline <br/> "
+"&#9744;&#160;user_updated <br/> &#9744;&#160;pinned_message / "
+"unpinned_message <br/> &#9745;&#160;Other events"
+
+#: ../index.md:37
 msgid "开源协议提示"
 msgstr "Open Source License Notation"
 
-#: ../index.md:29
+#: ../index.md:39
 msgid "本项目由AGPL v3协议开源。"
 msgstr "This project is open-source under AGPL v3 license."
 
-#: ../index.md:31
+#: ../index.md:41
 msgid "未经允许的情况下，**禁止**闭源使用，所有**间接接触**（包括但不限于jar依赖、http和ws等网络技术）本项目的程序必须开源。"
 msgstr ""
 "Closed source use are prohibited **without permission**, all **indirect "
@@ -90,11 +107,11 @@ msgstr ""
 " and any other network technologies) programs of this project must be "
 "open source."
 
-#: ../index.md:33
+#: ../index.md:43
 msgid "贡献"
 msgstr "Contributing"
 
-#: ../index.md:35
+#: ../index.md:45
 msgid "本项目期待你的参与！不管是完善事件系统还是增加尚无的HTTP API，抑或是帮助我们完善文档或者添加自己的示例代码，我都衷心期待每一位的贡献！"
 msgstr ""
 "We look forward to your contributions to this project! You can help us "
