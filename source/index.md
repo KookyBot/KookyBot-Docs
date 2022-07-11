@@ -34,6 +34,12 @@ quick-start/index
 <br/>
 &#9745;&#160;其余事件
 
+## 衍生项目
+
+优秀的衍生项目可以得到展示的机会！欢迎把你的项目提交给我们！
+
+- [KookyGithub](https://github.com/zly2006/KookyGithub) - 将 GithubWebhook 的信息同步到 Kook
+
 ## 开源协议提示
 
 本项目由AGPL v3协议开源。
