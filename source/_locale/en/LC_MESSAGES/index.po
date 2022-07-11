@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KookyBot \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-11 16:27-0400\n"
+"POT-Creation-Date: 2022-07-11 16:33-0400\n"
 "PO-Revision-Date: 2022-07-11 16:24-0400\n"
 "Last-Translator: Cubik65536 <cubik65536@cubik65536.top>\n"
 "Language: en\n"
@@ -46,15 +46,15 @@ msgstr ""
 "[![KOOK](https://img.shields.io/badge/KOOK%20Server%2dKookyBot-%237289DA.svg?style"
 "=for-the-badge&color=7ACC35)](https://kook.top/wnWOP9)"
 
-#: ../index.md:3:<translated>:1
+#: ../index.md:3
 msgid "LICENSE"
 msgstr "LICENSE"
 
-#: ../index.md:3:<translated>:1
+#: ../index.md:3
 msgid "GitHub"
 msgstr "GitHub"
 
-#: ../index.md:3:<translated>:1
+#: ../index.md:3
 msgid "KOOK"
 msgstr "KOOK"
 
@@ -70,10 +70,10 @@ msgstr "Development Plan"
 
 #: ../index.md:21
 msgid ""
-"&#9744;&#160;完整缓存模型 <br/> &#9744;&#160;缓存模型自动更新 <br/> "
+"&#9744;&#160;完整缓存模型 <br/> &#9745;&#160;缓存模型自动更新 <br/> "
 "&#9744;&#160;登录状态机稳定的自动重连"
 msgstr ""
-"&#9744;&#160;Complete cache model<br/> &#9744;&#160;Automatic cache model"
+"&#9744;&#160;Complete cache model<br/> &#9745;&#160;Automatic cache model"
 " update <br/> &#9744;&#160;Stable automatic reconnection of login state "
 "machine"
 
@@ -97,15 +97,17 @@ msgstr "Derived Projects"
 
 #: ../index.md:39
 msgid "优秀的衍生项目可以得到展示的机会！欢迎把你的项目提交给我们！"
-msgstr "Excellent derived projects can get a chance to be showcased! You can submit your project to us!"
+msgstr ""
+"Excellent derived projects can get a chance to be showcased! You can "
+"submit your project to us!"
 
 #: ../index.md:41
 msgid ""
 "[KookyGithub](https://github.com/zly2006/KookyGithub) - 将 GithubWebhook "
 "的信息同步到 Kook"
 msgstr ""
-"[KookyGithub](https://github.com/zly2006/KookyGithub) - Sync GitHub webhook "
-"messages to KOOK"
+"[KookyGithub](https://github.com/zly2006/KookyGithub) - Sync GitHub "
+"webhook messages to KOOK"
 
 #: ../index.md:43
 msgid "开源协议提示"
@@ -133,7 +135,4 @@ msgstr ""
 "We look forward to your contributions to this project! You can help us "
 "improve our events system, add the HTTP API that doesn't exist yet, help "
 "us to complete our documentation, or add your own sample code!"
-
-#~ msgid "优秀的衍生项目可以再次得到展示！欢迎把你的项目提交给我。"
-#~ msgstr ""
 
