@@ -1,0 +1,68 @@
+name: 内容请求
+description: 为我们的文档建议新内容
+title: "[内容请求]: "
+labels: ["enhancement"]
+assignees: Cubik65536
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您为 KookyBot-Docs 提供新的内容建议！
+        
+        > ### 重要！ :warning:
+        > 
+        > issue 专为报告问题以及请求新内容而设。如果您打开的 issue 不符合要求，它将被关闭。
+        >
+        > 对于使用上的问题，请参考以下资源：
+        > * 搜索[文档](https://kookybot.rtfd.io)
+        > * 在[KOOK 服务器内](https://kook.top/wnWOP9)搜索或提问
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: "请选择："
+      options:
+        - label: 我正在着手增加这些内容
+          required: false
+
+  - type: input
+    id: content-title
+    attributes:
+      label: 为新内容起一个标题
+      description: 为您希望在我们的文档中看到的新内容命名
+
+  - type: textarea
+    id: content-description
+    validations:
+      required: true
+    attributes:
+      label: 描述您想要的新内容
+      description: 清晰简洁的描述您想在我们的文档中看到的内容
+
+  - type: textarea
+    id: anything-else
+    attributes:
+      label: 还有其他的吗？
+      description: 在此处添加任何与功能请求相关的内容、参考或者代码示例
+
+  - type: markdown
+    attributes:
+      value: |
+        ---------
+        
+        在您提交本 issue 之前，请确认以下内容：
+        
+        **1. 这些内容或相似内容是否已经出现在了文档中？**
+        
+        请确认是否已经有此内容或相似内容。
+        
+        ---------
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 请确认以下条款
+      options:
+        - label: 我已经搜索了 [文档](https://kookybot.rtfd.io) 并确定没有相似内容
+          required: true
+

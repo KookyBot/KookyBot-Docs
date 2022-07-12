@@ -1,0 +1,86 @@
+name: 内容错误反馈
+description: 反馈文档内容上的问题
+title: "[内容错误]: "
+labels: ["documentation"]
+assignees: Cubik65536
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您参与反馈我们内容中的问题。
+        
+        > ### 重要！ :warning:
+        > 
+        > issue 专为报告问题以及请求新内容而设。如果您打开的 issue 不符合要求，它将被关闭。
+        >
+        > 对于使用上的问题，请参考以下资源：
+        > * 搜索[文档](https://kookybot.rtfd.io)
+        > * 在[KOOK 服务器内](https://kook.top/wnWOP9)搜索或提问
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: "请选择："
+      options:
+        - label: 我正在着手修复这个问题
+          required: false
+
+  - type: input
+    id: related-page
+    validations:
+      required: true
+    attributes:
+      label: 相关页面
+      description: 您在访问的哪个页面上遇到了此问题？
+      value: https://kookybot.rtfd.io/
+
+  - type: textarea
+    id: issue-description
+    validations:
+      required: true
+    attributes:
+      label: 问题描述
+      description: |
+        清晰简洁的描述您遇到的错误
+      value: |
+        在我访问该页面时，我看到了：
+
+        <已有内容>
+
+        但是正确的内容应该是：
+
+        <期望内容>
+      render: Markdown
+
+  - type: markdown
+    attributes:
+      value: |
+        ---------
+        
+        在您提交本 issue 之前，请确认以下内容：
+        
+        **1. 本问题是否已经被反馈过了？**
+        
+        请确认是否已经有 issue 反馈过了本问题。
+        
+        **2. 确认您提交的是错误报告**
+        
+        请确认您提交的是错误报告。
+
+        **3. 确认本错误仍然存在于最新部署的 KookyBot-Docs 中**
+        
+        请确认本错误仍然存在于最新部署的 KookyBot-Docs（[点此访问](https://kookybot.rtfd.io)）中。
+        
+        ---------
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 请确认以下条款
+      options:
+        - label: 我已经查看了[已有 issue](https://github.com/KookyBot/KookyBot-Docs/issues) 并确定我提交的问题并没有重复
+          required: true
+        - label: 本 issue 是 bug 反馈
+          required: true
+        - label: 本 bug 在最新部署中仍然存在
+          required: true
