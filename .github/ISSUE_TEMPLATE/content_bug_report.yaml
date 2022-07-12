@@ -1,0 +1,88 @@
+name: Content bug report
+description: Report a problem in the content of our documentation
+title: "[Content Bug]: "
+labels: ["documentation"]
+assignees: Cubik65536
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report an issue.
+        
+        > ### Important! :warning:
+        > 
+        > The issue list is reserved exclusively for bug reports and content requests. If you open an issue that does not conform to the requirements, it will be closed.
+        >
+        > Please refer to the following resources before opening an issue:
+        > * Search the [docs](https://kookybot.rtfd.io)
+        > * Search or ask in [KOOK Server](https://kook.top/wnWOP9)
+
+- type: checkboxes
+  id: confirm
+  attributes:
+    label: "Please choose if applies:"
+    options:
+    - label: I'm currently working on a fix.
+      required: false
+
+  - type: textarea
+    id: related-page
+    validations:
+      required: true
+    attributes:
+      label: Related Page
+      description: On which page you are accessing did you notice this issue?
+      value: |
+        https://kookybot.rtfd.io/
+      render: Markdown
+
+  - type: textarea
+    id: issue-description
+    validations:
+      required: true
+    attributes:
+      label: Issue Description
+      description: |
+        A clear and concise description of what the problem is.
+      value: |
+        When I'm accessing this page, I see:
+
+        <existed contents>
+
+        But it should be:
+
+        <expected contents>
+      render: Markdown
+
+  - type: markdown
+    attributes:
+      value: |
+        ---------
+        
+        Before you submit this issue, please confirm the following:
+        
+        **1. Is there an existing issue for this?**
+        
+        Please search to see if an issue already exists for the bug you encountered.
+        
+        **2. Confirm you are submitting a bug report**
+        
+        Please confirm you are submitting a bug report.
+        
+        **3. Confirm this bug still exists in the newest deployment of KookyBot-Docs**
+        
+        Please confirm that the bug still exists in the newest deployment KookyBot-Docs (which can be accessed [here](https://kookybot.rtfd.io)).
+        
+        ---------
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Please accept these terms
+      options:
+        - label: I have searched the [existing issues](https://github.com/KookyBot/KookyBot-Docs/issues) and this has not been posted before
+          required: true
+        - label: This is a bug report
+          required: true
+        - label: This bug still exists
+          required: true
