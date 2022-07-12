@@ -33,9 +33,7 @@ body:
     attributes:
       label: Related Page
       description: On which page you are accessing did you notice this issue?
-      value: |
-        https://kookybot.rtfd.io/
-      render: Markdown
+      value: https://kookybot.rtfd.io/
 
   - type: textarea
     id: issue-description
