@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KookyBot \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-11 16:33-0400\n"
+"POT-Creation-Date: 2022-07-11 21:17-0400\n"
 "PO-Revision-Date: 2022-07-11 16:24-0400\n"
 "Last-Translator: Cubik65536 <cubik65536@cubik65536.top>\n"
 "Language: en\n"
@@ -46,15 +46,15 @@ msgstr ""
 "[![KOOK](https://img.shields.io/badge/KOOK%20Server%2dKookyBot-%237289DA.svg?style"
 "=for-the-badge&color=7ACC35)](https://kook.top/wnWOP9)"
 
-#: ../index.md:3
+#: ../index.md:3:<translated>:1
 msgid "LICENSE"
 msgstr "LICENSE"
 
-#: ../index.md:3
+#: ../index.md:3:<translated>:1
 msgid "GitHub"
 msgstr "GitHub"
 
-#: ../index.md:3
+#: ../index.md:3:<translated>:1
 msgid "KOOK"
 msgstr "KOOK"
 
@@ -70,10 +70,10 @@ msgstr "Development Plan"
 
 #: ../index.md:21
 msgid ""
-"&#9744;&#160;完整缓存模型 <br/> &#9745;&#160;缓存模型自动更新 <br/> "
+"&#9744;&#160;完整缓存模型 - Role & 操作 API <br/> &#9745;&#160;缓存模型自动更新 <br/> "
 "&#9744;&#160;登录状态机稳定的自动重连"
 msgstr ""
-"&#9744;&#160;Complete cache model<br/> &#9745;&#160;Automatic cache model"
+"&#9744;&#160;Complete cache model - Role & Operations APIs<br/> &#9745;&#160;Automatic cache model"
 " update <br/> &#9744;&#160;Stable automatic reconnection of login state "
 "machine"
 
