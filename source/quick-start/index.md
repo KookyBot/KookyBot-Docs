@@ -26,7 +26,7 @@ repositories {
 ``` kotlin
 dependencies {
     // KOOK SDK
-    implementation("com.github.KookyBot:KookyBot:0.1.1")
+    implementation("com.github.KookyBot:KookyBot:0.1.2")
 }
 ```
 
