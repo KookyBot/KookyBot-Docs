@@ -26,7 +26,7 @@ body:
       - label: I'm currently working on a fix.
         required: false
 
-  - type: textarea
+  - type: input
     id: related-page
     validations:
       required: true

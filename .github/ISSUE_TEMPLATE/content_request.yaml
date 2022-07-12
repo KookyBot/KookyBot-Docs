@@ -26,7 +26,7 @@ body:
       - label: I'm currently working on adding these contents.
         required: false
 
-  - type: textarea
+  - type: input
     id: content-title
     attributes:
       label: Suggest a title for the content.
