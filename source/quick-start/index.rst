@@ -13,26 +13,63 @@
 使用 JitPack 与 Gradle/Maven 等工具（推荐）
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. warning::
+1. 添加 JitPack 作为依赖仓库
 
-   本文使用 Gradle Kotlin 作为示例工具，您可能需要根据您使用的工具（Gradle Groovy 或者 Maven 等）调整代码。
+.. tabs::
 
-1. 添加 JitPack 作为 Gradle 仓库
+   .. code-tab:: kotlin Gradle Kotlin
 
-.. code:: kotlin
+         repositories {
+            ...
+            maven { url = uri("https://jitpack.io") }
+         }
 
-   repositories {
-       maven { url = uri("https://jitpack.io") }
-   }
+   .. code-tab:: groovy Gradle Groovy
+
+         repositories {
+            ...
+            maven { url 'https://jitpack.io' }
+         }
+
+   .. code-tab:: xml Maven
+
+         <repositories>
+            <repository>
+               <id>jitpack.io</id>
+               <url>https://jitpack.io</url>
+            </repository>
+         </repositories>
 
 2. 添加 KookyBot 到依赖中
 
-.. code:: kotlin
+.. tabs::
 
-   dependencies {
-       // KOOK SDK
-       implementation("com.github.KookyBot:KookyBot:0.1.2")
-   }
+   .. code-tab:: kotlin Gradle Kotlin
+
+         dependencies {
+            ...
+            // KOOK SDK
+            implementation("com.github.KookyBot:KookyBot:0.1.2")
+         }
+
+   .. code-tab:: groovy Gradle Groovy
+
+         dependencies {
+            ...
+            // KOOK SDK
+            implementation 'com.github.KookyBot:KookyBot:0.1.2'
+         }
+
+   .. code-tab:: xml Maven
+
+         <dependencies>
+            <!-- KOOK SDK -->
+            <dependency>
+               <groupId>com.github.KookyBot</groupId>
+               <artifactId>KookyBot</artifactId>
+               <version>0.1.2</version>
+            </dependency>
+         </dependencies>
 
 3. 现在 KookyBot SDK 已经添加到您的项目中，您可以开始使用本 SDK 开发了！
 
