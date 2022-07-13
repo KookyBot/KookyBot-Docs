@@ -2,4 +2,5 @@ sphinx
 sphinx-rtd-theme
 furo
 sphinx_copybutton
+sphinx-tabs
 myst_parser
