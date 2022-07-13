@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KookyBot \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-12 22:01-0400\n"
+"POT-Creation-Date: 2022-07-12 22:19-0400\n"
 "PO-Revision-Date: 2022-07-12 22:01-0400\n"
 "Last-Translator: Cubik65536 <cubik65536@cubik65536.top>\n"
 "Language: en\n"
@@ -36,8 +36,8 @@ msgid "GitHub"
 msgstr "GitHub"
 
 #: ../index.rst
-msgid "KOOK"
-msgstr "KOOK"
+msgid "KOOK-EN"
+msgstr ""
 
 #: ../index.rst:6
 msgid "KookyBot - JVM 平台上的 KOOK (原开黑啦) Bot SDK"
@@ -108,10 +108,10 @@ msgid ""
 "未经允许的情况下，\\ **禁止**\\ 闭源使用，所有\\ **间接接触**\\ "
 "（包括但不限于jar依赖、http和ws等网络技术）本项目的程序必须开源。"
 msgstr ""
-"Closed source use are prohibited \\ **without permission**\\, all \\ **indirect "
-"contact**\\ (including but not limited to jar dependencies, http, websocket"
-" and any other network technologies) programs of this project must be "
-"open source."
+"Closed source use are prohibited \\ **without permission**\\, all \\ "
+"**indirect contact**\\ (including but not limited to jar dependencies, "
+"http, websocket and any other network technologies) programs of this "
+"project must be open source."
 
 #: ../index.rst:47
 msgid "贡献"
@@ -123,4 +123,8 @@ msgstr ""
 "We look forward to your contributions to this project! You can help us "
 "improve our events system, add the HTTP API that doesn't exist yet, help "
 "us to complete our documentation, or add your own sample code!"
+
+#: ../index.rst
+msgid "KOOK"
+msgstr "KOOK"
 
