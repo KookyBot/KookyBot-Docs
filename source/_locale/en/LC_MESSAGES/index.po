@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KookyBot \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-11 21:17-0400\n"
-"PO-Revision-Date: 2022-07-11 16:24-0400\n"
+"POT-Creation-Date: 2022-07-12 22:01-0400\n"
+"PO-Revision-Date: 2022-07-12 22:01-0400\n"
 "Last-Translator: Cubik65536 <cubik65536@cubik65536.top>\n"
 "Language: en\n"
 "Language-Team: English\n"
@@ -19,117 +19,105 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
 
-#: ../index.md:1
+#: ../index.rst:2
 msgid "KookyBot 文档"
 msgstr "KookyBot Documentation"
 
-#: ../index.md:3
-#, python-format
-msgid ""
-"[![LICENSE](https://img.shields.io/badge/License-AGPL--3.0--or--later-"
-"important?style=for-the-"
-"badge)](https://github.com/KookyBot/KookyBot/blob/master/LICENSE) "
-"[![GitHub](https://img.shields.io/badge/KookyBot%2FKookyBot-%23121011.svg?style"
-"=for-the-"
-"badge&logo=github&logoColor=white)](https://github.com/KookyBot/KookyBot)"
-" "
-"[![KOOK](https://img.shields.io/badge/KOOK服务器%2dKookyBot-%237289DA.svg?style"
-"=for-the-badge&color=7ACC35)](https://kook.top/wnWOP9)"
-msgstr ""
-"[![LICENSE](https://img.shields.io/badge/License-AGPL--3.0--or--later-"
-"important?style=for-the-"
-"badge)](https://github.com/KookyBot/KookyBot/blob/master/LICENSE) "
-"[![GitHub](https://img.shields.io/badge/KookyBot%2FKookyBot-%23121011.svg?style"
-"=for-the-"
-"badge&logo=github&logoColor=white)](https://github.com/KookyBot/KookyBot)"
-" "
-"[![KOOK](https://img.shields.io/badge/KOOK%20Server%2dKookyBot-%237289DA.svg?style"
-"=for-the-badge&color=7ACC35)](https://kook.top/wnWOP9)"
+#: ../index.rst:4
+msgid "|LICENSE| |GitHub| |KOOK|"
+msgstr "|LICENSE| |GitHub| |KOOK-EN|"
 
-#: ../index.md:3:<translated>:1
+#: ../index.rst
 msgid "LICENSE"
 msgstr "LICENSE"
 
-#: ../index.md:3:<translated>:1
+#: ../index.rst
 msgid "GitHub"
 msgstr "GitHub"
 
-#: ../index.md:3:<translated>:1
+#: ../index.rst
 msgid "KOOK"
 msgstr "KOOK"
 
-#: ../index.md:7
+#: ../index.rst:6
 msgid "KookyBot - JVM 平台上的 KOOK (原开黑啦) Bot SDK"
 msgstr ""
 "KookyBot - An Bot SDK for KOOK (formerly known as KaiHeiLa) for JVM "
 "platforms."
 
-#: ../index.md:19
+#: ../index.rst:18
 msgid "开发计划"
 msgstr "Development Plan"
 
-#: ../index.md:21
-msgid ""
-"&#9744;&#160;完整缓存模型 - Role & 操作 API <br/> &#9745;&#160;缓存模型自动更新 <br/> "
-"&#9744;&#160;登录状态机稳定的自动重连"
-msgstr ""
-"&#9744;&#160;Complete cache model - Role & Operations APIs<br/> &#9745;&#160;Automatic cache model"
-" update <br/> &#9744;&#160;Stable automatic reconnection of login state "
-"machine"
+#: ../index.rst:20
+msgid "☐ 完整缓存模型 - Role & 操作 API"
+msgstr "☐ Complete cache model - Role & Operations APIs"
 
-#: ../index.md:27
+#: ../index.rst:21
+msgid "☑ 缓存模型自动更新"
+msgstr "☑ Automatic cache model update"
+
+#: ../index.rst:22
+msgid "☐ 登录状态机稳定的自动重连"
+msgstr "☐ Stable automatic reconnection of login state machine"
+
+#: ../index.rst:25
 msgid "事件"
 msgstr "Events"
 
-#: ../index.md:29
-msgid ""
-"&#9744;&#160;guild_member_online / guild_member_offline <br/> "
-"&#9744;&#160;user_updated <br/> &#9744;&#160;pinned_message / "
-"unpinned_message <br/> &#9745;&#160;其余事件"
-msgstr ""
-"&#9744;&#160;guild_member_online / guild_member_offline <br/> "
-"&#9744;&#160;user_updated <br/> &#9744;&#160;pinned_message / "
-"unpinned_message <br/> &#9745;&#160;Other events"
+#: ../index.rst:27
+msgid "☐ guild_member_online / guild_member_offline"
+msgstr "☐ guild_member_online / guild_member_offline"
 
-#: ../index.md:37
+#: ../index.rst:28
+msgid "☐ user_updated"
+msgstr "☐ user_updated"
+
+#: ../index.rst:29
+msgid "☐ pinned_message / unpinned_message"
+msgstr "☐ pinned_message / unpinned_messag"
+
+#: ../index.rst:30
+msgid "☑ 其余事件"
+msgstr "☑ Other events"
+
+#: ../index.rst:33
 msgid "衍生项目"
 msgstr "Derived Projects"
 
-#: ../index.md:39
+#: ../index.rst:35
 msgid "优秀的衍生项目可以得到展示的机会！欢迎把你的项目提交给我们！"
 msgstr ""
 "Excellent derived projects can get a chance to be showcased! You can "
 "submit your project to us!"
 
-#: ../index.md:41
-msgid ""
-"[KookyGithub](https://github.com/zly2006/KookyGithub) - 将 GithubWebhook "
-"的信息同步到 Kook"
-msgstr ""
-"[KookyGithub](https://github.com/zly2006/KookyGithub) - Sync GitHub "
-"webhook messages to KOOK"
+#: ../index.rst:37
+msgid "`KookyGithub`_ - 将 GithubWebhook 的信息同步到 Kook"
+msgstr "`KookyGithub`_ - Sync GitHub webhook messages to KOOK"
 
-#: ../index.md:43
+#: ../index.rst:40
 msgid "开源协议提示"
 msgstr "Open Source License Notation"
 
-#: ../index.md:45
+#: ../index.rst:42
 msgid "本项目由AGPL v3协议开源。"
 msgstr "This project is open-source under AGPL v3 license."
 
-#: ../index.md:47
-msgid "未经允许的情况下，**禁止**闭源使用，所有**间接接触**（包括但不限于jar依赖、http和ws等网络技术）本项目的程序必须开源。"
+#: ../index.rst:44
+msgid ""
+"未经允许的情况下，\\ **禁止**\\ 闭源使用，所有\\ **间接接触**\\ "
+"（包括但不限于jar依赖、http和ws等网络技术）本项目的程序必须开源。"
 msgstr ""
-"Closed source use are prohibited **without permission**, all **indirect "
-"contact** (including but not limited to jar dependencies, http, websocket"
+"Closed source use are prohibited \\ **without permission**\\, all \\ **indirect "
+"contact**\\ (including but not limited to jar dependencies, http, websocket"
 " and any other network technologies) programs of this project must be "
 "open source."
 
-#: ../index.md:49
+#: ../index.rst:47
 msgid "贡献"
 msgstr "Contributing"
 
-#: ../index.md:51
+#: ../index.rst:49
 msgid "本项目期待你的参与！不管是完善事件系统还是增加尚无的HTTP API，抑或是帮助我们完善文档或者添加自己的示例代码，我都衷心期待每一位的贡献！"
 msgstr ""
 "We look forward to your contributions to this project! You can help us "

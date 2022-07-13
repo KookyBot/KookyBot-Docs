@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KookyBot \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-11 16:22-0400\n"
-"PO-Revision-Date: 2022-07-09 15:13-0400\n"
+"POT-Creation-Date: 2022-07-12 22:01-0400\n"
+"PO-Revision-Date: 2022-07-12 22:01-0400\n"
 "Last-Translator: Cubik65536 <cubik65536@cubik65536.top>\n"
 "Language: en\n"
 "Language-Team: English\n"
@@ -19,93 +19,93 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
 
-#: ../quick-start/index.md:1
+#: ../quick-start/index.rst:2
 msgid "快速上手"
 msgstr "Quick Start"
 
-#: ../quick-start/index.md:3
+#: ../quick-start/index.rst:4
 msgid "该章节将会简单描述如何安装 KookyBot SDK 并编写、运行一个简单的机器人。"
 msgstr ""
 
-#: ../quick-start/index.md:5
-msgid "安装依赖"
+#: ../quick-start/index.rst:7
+msgid "添加依赖"
 msgstr ""
 
-#: ../quick-start/index.md:7
+#: ../quick-start/index.rst:9
 msgid ""
 "您可以通过多种方法安装 KookyBot SDK。我们推荐使用 JitPack 配合 Gradle 或者 Maven "
 "等工具，这样您可以更方便的管理版本以及其他依赖。 但是，如果您愿意的话，您也可以将构建好的 jar 导入到您的项目中。"
 msgstr ""
 
-#: ../quick-start/index.md:10
+#: ../quick-start/index.rst:14
 msgid "使用 JitPack 与 Gradle/Maven 等工具（推荐）"
 msgstr ""
 
-#: ../quick-start/index.md:13
+#: ../quick-start/index.rst:18
 msgid "本文使用 Gradle Kotlin 作为示例工具，您可能需要根据您使用的工具（Gradle Groovy 或者 Maven 等）调整代码。"
 msgstr ""
 
-#: ../quick-start/index.md:16
+#: ../quick-start/index.rst:20
 msgid "添加 JitPack 作为 Gradle 仓库"
 msgstr ""
 
-#: ../quick-start/index.md:24
+#: ../quick-start/index.rst:28
 msgid "添加 KookyBot 到依赖中"
 msgstr ""
 
-#: ../quick-start/index.md:33 ../quick-start/index.md:46
-#: ../quick-start/index.md:52 ../quick-start/index.md:61
+#: ../quick-start/index.rst:37 ../quick-start/index.rst:51
+#: ../quick-start/index.rst:58 ../quick-start/index.rst:69
 msgid "现在 KookyBot SDK 已经添加到您的项目中，您可以开始使用本 SDK 开发了！"
 msgstr ""
 
-#: ../quick-start/index.md:35
+#: ../quick-start/index.rst:40
 msgid "自行构建 jar 并导入（不推荐）"
 msgstr ""
 
-#: ../quick-start/index.md:37
+#: ../quick-start/index.rst:42
 msgid "clone 本仓库到您的计算机上"
 msgstr ""
 
-#: ../quick-start/index.md:43
-msgid "运行 `gradle jar` 构建 jar"
+#: ../quick-start/index.rst:48
+msgid "运行 ``gradle jar`` 构建 jar"
 msgstr ""
 
-#: ../quick-start/index.md:44
-msgid "在 `builds/libs` 目录下找到构建完成的 jar"
+#: ../quick-start/index.rst:49
+msgid "在 ``builds/libs`` 目录下找到构建完成的 jar"
 msgstr ""
 
-#: ../quick-start/index.md:45 ../quick-start/index.md:51
-#: ../quick-start/index.md:60
+#: ../quick-start/index.rst:50 ../quick-start/index.rst:57
+#: ../quick-start/index.rst:68
 msgid "依照您的 IDE 的操作方法将 jar 导入到项目中"
 msgstr ""
 
-#: ../quick-start/index.md:48
+#: ../quick-start/index.rst:54
 msgid "下载 GitHub Release 的 jar 包（不推荐）"
 msgstr ""
 
-#: ../quick-start/index.md:50
-msgid ""
-"前往 [GitHub Release 页面](https://github.com/KookyBot/KookyBot/releases) "
-"并下载您需要的版本的 jar 包"
+#: ../quick-start/index.rst:56
+msgid "前往 `GitHub Release 页面`_ 并下载您需要的版本的 jar 包"
 msgstr ""
 
-#: ../quick-start/index.md:54
+#: ../quick-start/index.rst:61
 msgid "下载 GitHub Action 的 jar 包（不推荐，除非您想要尝试开发版本）"
 msgstr ""
 
-#: ../quick-start/index.md:56
-msgid "前往 [GitHub Action 页面](https://github.com/KookyBot/KookyBot/actions)"
+#: ../quick-start/index.rst:63
+msgid "前往 `GitHub Action 页面`_"
 msgstr ""
 
-#: ../quick-start/index.md:57
+#: ../quick-start/index.rst:64
 msgid "选择您需要的 commit 版本"
 msgstr ""
 
-#: ../quick-start/index.md:58
-msgid "前往页面的 `Artifacts` 部分，点击 `KookyBot-[commit-hash]` 下载 GitHub Action 构建的版本"
+#: ../quick-start/index.rst:65
+msgid ""
+"前往页面的 ``Artifacts`` 部分，点击 ``KookyBot-[commit-hash]`` 下载 GitHub Action "
+"构建的版本"
 msgstr ""
 
-#: ../quick-start/index.md:59
+#: ../quick-start/index.rst:67
 msgid "下载后解压 zip 包，您即可获得构建好的 jar 包"
 msgstr ""
 
