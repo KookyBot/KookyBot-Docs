@@ -138,3 +138,47 @@ KookyBot 使用 `slf4j <https://www.slf4j.org>`_ 作为 LOG 库，所以您需�
          </dependencies>
 
 5. 现在 KookyBot SDK 已经添加到您的项目中，您可以开始使用本 SDK 开发了！
+
+编写你的第一行代码
+-------------------
+
+现在，KookyBot SDK 已经添加到您的项目中，您可以开始使用本 SDK 开发了！在合适的地方创建 :code:`Application.kt`\ 或者
+:code:`Main.java`\ 文件，然后在这个文件中开发你的第一个 KookyBot 机器人。
+
+`Kotlin 示例代码 <https://github.com/KookyBot/KookyBotDemoKt/blob/main/src/main/kotlin/io/github/kookybot/Application.kt>`_ 
+
+.. tabs::
+
+   .. code-tab:: kotlin
+
+         package [your-package-name]
+
+         import java.io.File
+         import io.github.kookybot.client.Client
+         import io.github.kookybot.events.channel.ChannelMessageEvent
+
+         suspend fun main() {
+            // Read the KOOK bot token / 读取 KOOK bot token
+            val token = File("data/token.txt").readLines().first()
+            // Create a new KOOK bot client / 创建一个新的 KOOK bot 客户端
+            val client = Client(token) {
+               // Register default Brigadier commands / 注册默认 Brigadier 命令
+               withDefaultCommands()
+            }
+            // Start the KOOK bot client / 启动 KOOK bot 客户端
+            val self = client.start()
+            // Add a listener for channel messages / 添加一个监听器以侦听频道消息
+            client.eventManager.addListener<ChannelMessageEvent> {
+               // Message is "hello" / 消息是 "hello"
+               if (content == "hello") {
+                     // Send "Hello, world!" to the channel / 发送 "Hello, world!" 到频道
+                     channel.sendMessage("Hello, world!")
+               }
+            }
+         }
+
+   .. code-tab:: java
+
+         // Coming soon...
+
+现在，将机器人邀请到您的服务器中，并在频道中发送 :code:`hello`\  试试看！您也可以发送 :code:`/help`\  命令来获取默认命令帮助。
