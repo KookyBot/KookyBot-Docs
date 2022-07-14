@@ -79,7 +79,7 @@ KookyBot 使用 `slf4j <https://www.slf4j.org>`_ 作为 LOG 库，所以您需�
 
          dependencies {
             ...
-            // KOOK SDK
+            // Logging Framework
             implementation("org.slf4j:slf4j-simple:1.7.11")
          }
 
@@ -87,14 +87,14 @@ KookyBot 使用 `slf4j <https://www.slf4j.org>`_ 作为 LOG 库，所以您需�
 
          dependencies {
             ...
-            // KOOK SDK
+            // Logging Framework
             implementation 'org.slf4j:slf4j-simple:1.7.11'
          }
 
    .. code-tab:: xml Maven
 
          <dependencies>
-            <!-- KOOK SDK -->
+            <!-- Logging Framework -->
             <dependency>
                <groupId>org.slf4j</groupId>
                <artifactId>slf4j-simple</artifactId>
