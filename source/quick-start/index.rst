@@ -42,6 +42,10 @@
 
 2. 添加 KookyBot 到依赖中
 
+.. note::
+   | 注意，假如您希望使用实验版或者指定 commit 构建
+   | 请将版本 tag（下文中的 :code:`0.1.3-SNAPSHOT`\ ）改为 :code:`master-SNAPSHOT`\（基于主分支最新 commit 的构建）或者 commit 哈希。
+
 .. tabs::
 
    .. code-tab:: kotlin Gradle Kotlin
