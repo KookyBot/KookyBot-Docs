@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KookyBot \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-13 23:00-0400\n"
+"POT-Creation-Date: 2022-07-13 23:05-0400\n"
 "PO-Revision-Date: 2022-07-12 22:01-0400\n"
 "Last-Translator: Cubik65536 <cubik65536@cubik65536.top>\n"
 "Language: en\n"
@@ -27,43 +27,49 @@ msgstr "Quick Start"
 msgid "该章节将会简单描述如何安装 KookyBot SDK 并编写、运行一个简单的机器人。"
 msgstr ""
 
-#: ../quick-start/index.rst:7
+#: ../quick-start/index.rst:5
+msgid ""
+"您也可以参考 `Kotlin 示例代码仓库 <https://github.com/KookyBot/KookyBotDemoKt>`_ "
+"来帮助您快速上手。"
+msgstr ""
+
+#: ../quick-start/index.rst:8
 msgid "添加依赖"
 msgstr ""
 
-#: ../quick-start/index.rst:9
+#: ../quick-start/index.rst:10
 msgid "我们在此处将会演示如何使用 jitpack 搭配 Gradle/Maven 等工具来添加 KookyBot SDK 作为项目依赖。"
 msgstr ""
 
-#: ../quick-start/index.rst:11
+#: ../quick-start/index.rst:12
 msgid "添加 Mojang 仓库"
 msgstr ""
 
-#: ../quick-start/index.rst:13
+#: ../quick-start/index.rst:14
 msgid ""
 "KookyBot 使用 `Mojang Brigadier <https://github.com/Mojang/brigadier>`_ "
 "作为命令解析器，所以您需要添加 Mojang 的依赖仓库来让 KookyBot 的命令机制正常工作"
 msgstr ""
 
-#: ../quick-start/index.rst:40
+#: ../quick-start/index.rst:41
 msgid "添加 JitPack 作为依赖仓库"
 msgstr ""
 
-#: ../quick-start/index.rst:42
+#: ../quick-start/index.rst:43
 msgid ""
 "KookyBot 目前使用 jitpack 作为依赖仓库，所以您需要添加 jitpack 来让 Gradle/Maven 可以正常获取 "
 "KookyBot"
 msgstr ""
 
-#: ../quick-start/index.rst:69
+#: ../quick-start/index.rst:70
 msgid "添加 slf4j 到依赖中"
 msgstr ""
 
-#: ../quick-start/index.rst:71
+#: ../quick-start/index.rst:72
 msgid "KookyBot 使用 `slf4j <https://www.slf4j.org>`_ 作为 LOG 库，所以您需要添加 slf4j 到依赖中"
 msgstr ""
 
-#: ../quick-start/index.rst:102
+#: ../quick-start/index.rst:103
 msgid "添加 KookyBot 到依赖中"
 msgstr ""
 
@@ -77,6 +83,7 @@ msgid ""
 "SNAPSHOT`\\（基于主分支最新 commit 的构建）或者 commit 哈希"
 msgstr ""
 
-#: ../quick-start/index.rst:137
+#: ../quick-start/index.rst:138
 msgid "现在 KookyBot SDK 已经添加到您的项目中，您可以开始使用本 SDK 开发了！"
 msgstr ""
+

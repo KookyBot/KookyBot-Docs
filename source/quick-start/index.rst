@@ -1,7 +1,8 @@
 快速上手
 ========
 
-该章节将会简单描述如何安装 KookyBot SDK 并编写、运行一个简单的机器人。
+| 该章节将会简单描述如何安装 KookyBot SDK 并编写、运行一个简单的机器人。
+| 您也可以参考 `Kotlin 示例代码仓库 <https://github.com/KookyBot/KookyBotDemoKt>`_ 来帮助您快速上手。
 
 添加依赖
 --------
