@@ -49,7 +49,7 @@
          dependencies {
             ...
             // KOOK SDK
-            implementation("com.github.KookyBot:KookyBot:0.1.2")
+            implementation("com.github.KookyBot:KookyBot:0.1.3-SNAPSHOT")
          }
 
    .. code-tab:: groovy Gradle Groovy
@@ -57,7 +57,7 @@
          dependencies {
             ...
             // KOOK SDK
-            implementation 'com.github.KookyBot:KookyBot:0.1.2'
+            implementation 'com.github.KookyBot:KookyBot:0.1.3-SNAPSHOT'
          }
 
    .. code-tab:: xml Maven
@@ -67,7 +67,7 @@
             <dependency>
                <groupId>com.github.KookyBot</groupId>
                <artifactId>KookyBot</artifactId>
-               <version>0.1.2</version>
+               <version>0.1.3-SNAPSHOT</version>
             </dependency>
          </dependencies>
 
@@ -94,8 +94,8 @@
 2. 依照您的 IDE 的操作方法将 jar 导入到项目中
 3. 现在 KookyBot SDK 已经添加到您的项目中，您可以开始使用本 SDK 开发了！
 
-下载 GitHub Action 的 jar 包（不推荐，除非您想要尝试开发版本）
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+下载 GitHub Action 的 jar 包（不推荐）
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. 前往 `GitHub Action 页面`_
 2. 选择您需要的 commit 版本
