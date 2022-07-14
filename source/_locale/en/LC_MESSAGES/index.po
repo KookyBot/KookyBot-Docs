@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KookyBot \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-12 22:19-0400\n"
+"POT-Creation-Date: 2022-07-13 22:55-0400\n"
 "PO-Revision-Date: 2022-07-12 22:01-0400\n"
 "Last-Translator: Cubik65536 <cubik65536@cubik65536.top>\n"
 "Language: en\n"
@@ -36,8 +36,8 @@ msgid "GitHub"
 msgstr "GitHub"
 
 #: ../index.rst
-msgid "KOOK-EN"
-msgstr ""
+msgid "KOOK"
+msgstr "KOOK"
 
 #: ../index.rst:6
 msgid "KookyBot - JVM 平台上的 KOOK (原开黑啦) Bot SDK"
@@ -92,8 +92,10 @@ msgstr ""
 "submit your project to us!"
 
 #: ../index.rst:37
-msgid "`KookyGithub`_ - 将 GithubWebhook 的信息同步到 Kook"
-msgstr "`KookyGithub`_ - Sync GitHub webhook messages to KOOK"
+msgid ""
+"`KookyGithub <https://github.com/zly2006/KookyGithub>`_ - 将 GithubWebhook"
+" 的信息同步到 Kook"
+msgstr "`KookyGithub <https://github.com/zly2006/KookyGithub>`_ - Sync GitHub webhook messages to KOOK"
 
 #: ../index.rst:40
 msgid "开源协议提示"
@@ -125,6 +127,6 @@ msgstr ""
 "us to complete our documentation, or add your own sample code!"
 
 #: ../index.rst
-msgid "KOOK"
-msgstr "KOOK"
+msgid "KOOK-EN"
+msgstr ""
 

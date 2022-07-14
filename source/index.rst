@@ -34,7 +34,7 @@ KookyBot - JVM 平台上的 KOOK (原开黑啦) Bot SDK
 
 优秀的衍生项目可以得到展示的机会！欢迎把你的项目提交给我们！
 
--  `KookyGithub`_ - 将 GithubWebhook 的信息同步到 Kook
+-  `KookyGithub <https://github.com/zly2006/KookyGithub>`_ - 将 GithubWebhook 的信息同步到 Kook
 
 开源协议提示
 ------------
@@ -48,8 +48,6 @@ KookyBot - JVM 平台上的 KOOK (原开黑啦) Bot SDK
 
 本项目期待你的参与！不管是完善事件系统还是增加尚无的HTTP
 API，抑或是帮助我们完善文档或者添加自己的示例代码，我都衷心期待每一位的贡献！
-
-.. _KookyGithub: https://github.com/zly2006/KookyGithub
 
 .. |LICENSE| image:: https://img.shields.io/badge/License-AGPL--3.0--or--later-important?style=for-the-badge
    :target: https://github.com/KookyBot/KookyBot/blob/master/LICENSE
