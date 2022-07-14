@@ -9,6 +9,8 @@
 
 我们在此处将会演示如何使用 jitpack 搭配 Gradle/Maven 等工具来添加 KookyBot SDK 作为项目依赖。
 
+`Kotlin Gradle 示例代码 <https://github.com/KookyBot/KookyBotDemoKt/blob/main/build.gradle.kts>`_ 
+
 1. 添加 Mojang 仓库
 
 KookyBot 使用 `Mojang Brigadier <https://github.com/Mojang/brigadier>`_ 作为命令解析器，所以您需要添加 Mojang 的依赖仓库来让 KookyBot 的命令机制正常工作
