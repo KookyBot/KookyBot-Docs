@@ -108,7 +108,7 @@ KookyBot 使用 `slf4j <https://www.slf4j.org>`_ 作为 LOG 库，所以您需�
 
 .. note::
    | 注意，假如您希望使用实验版或者指定 commit 构建
-   | 请将版本 tag（下文中的 :code:`0.1.3-SNAPSHOT`\ ）改为 :code:`master-SNAPSHOT`\（基于主分支最新 commit 的构建）或者 commit 哈希
+   | 请将版本 tag（下文中的 :code:`0.2.1`\ ）改为 :code:`master-SNAPSHOT`\（基于主分支最新 commit 的构建）或者 commit 哈希
 
 .. tabs::
 
@@ -117,7 +117,7 @@ KookyBot 使用 `slf4j <https://www.slf4j.org>`_ 作为 LOG 库，所以您需�
          dependencies {
             ...
             // KOOK SDK
-            implementation("com.github.KookyBot:KookyBot:0.1.3-SNAPSHOT")
+            implementation("com.github.KookyBot:KookyBot:0.2.1")
          }
 
    .. code-tab:: groovy Gradle Groovy
@@ -125,7 +125,7 @@ KookyBot 使用 `slf4j <https://www.slf4j.org>`_ 作为 LOG 库，所以您需�
          dependencies {
             ...
             // KOOK SDK
-            implementation 'com.github.KookyBot:KookyBot:0.1.3-SNAPSHOT'
+            implementation 'com.github.KookyBot:KookyBot:0.2.1'
          }
 
    .. code-tab:: xml Maven
@@ -135,7 +135,7 @@ KookyBot 使用 `slf4j <https://www.slf4j.org>`_ 作为 LOG 库，所以您需�
             <dependency>
                <groupId>com.github.KookyBot</groupId>
                <artifactId>KookyBot</artifactId>
-               <version>0.1.3-SNAPSHOT</version>
+               <version>0.2.1</version>
             </dependency>
          </dependencies>
 
