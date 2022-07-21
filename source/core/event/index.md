@@ -1,16 +1,16 @@
 # 事件机制
 
-事件是聊天机器人的灵魂。在这一节， 我们将介绍KookyBot的时间系统的基本使用和实现细节。
+事件是聊天机器人的灵魂。在这一节中，我们将介绍 KookyBot 的事件系统的基本使用和实现细节。
 
 ## 事件监听器的基本类型
 
-KookyBot支持这些事件监听器:
+KookyBot 支持这些事件监听器:
 
 | 名称 | 详情 | 使用方法 |
 |------|------|----------|
 | 单方法监听器 | 使用一个方法监听某类事件，最方便快捷 | 通过 EventManager.addListener |
-| 类监听器 | 多个方法一起监听，自由度更高 | 继承Listener |
-| 点击监听器 | 仅在 CardMessage.ModuleScope.ButtonElement 中使用，您只需要设置 onclock 参数即可自动设置，是创建按钮的不二选择 | 设置onclick参数即可 |
+| 类监听器 | 多个方法一起监听，自由度更高 | 继承 Listener |
+| 点击监听器 | 仅在 CardMessage.ModuleScope.ButtonElement 中使用，您只需要设置 onclock 参数即可自动设置，是创建按钮的不二选择 | 设置 onclick 参数即可 |
 | 指令监听器 | 由 Brigadier 提供的构建+提示+执行命令系统 | client.addCommand<br/>参见 [命令机制: Brigadier 以及如何使用它](../command) |
 
 ## 我应该如何选择使用的监听器？
