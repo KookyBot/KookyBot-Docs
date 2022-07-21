@@ -11,8 +11,8 @@ KookyBot - JVM 平台上的 KOOK (原开黑啦) Bot SDK
    :maxdepth: 1
 
    quick-start/index
+   core/event/index
    core/command
-   core/event
    console/index
 
 --------------

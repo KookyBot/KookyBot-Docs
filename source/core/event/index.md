@@ -11,7 +11,7 @@ KookyBot支持这些事件监听器:
 | 单方法监听器 | 使用一个方法监听某类事件，最方便快捷 | 通过 EventManager.addListener |
 | 类监听器 | 多个方法一起监听，自由度更高 | 继承Listener |
 | 点击监听器 | 仅在 CardMessage.ModuleScope.ButtonElement 中使用，您只需要设置 onclock 参数即可自动设置，是创建按钮的不二选择 | 设置onclick参数即可 |
-| 指令监听器 | 由 Brigadier 提供的构建+提示+执行命令系统 | client.addCommand<br/>参见 [命令机制: Brigadier 以及如何使用它](./command) |
+| 指令监听器 | 由 Brigadier 提供的构建+提示+执行命令系统 | client.addCommand<br/>参见 [命令机制: Brigadier 以及如何使用它](../command) |
 
 ## 我应该如何使用这些监听器？
 
