@@ -1,36 +1,36 @@
 命令机制: Brigadier 以及如何使用它
-======
+===================================
 
-关于Brigadier用法也可以查看 `官方文档 <https://github.com/Mojang/brigadier#usage>`_ ，但是这里的也许更有用一点。
+关于 Brigadier 用法也可以查看 `官方文档 <https://github.com/Mojang/brigadier#usage>`_ ，但是这里的也许更有用一点。
 
 Brigadier 是 Mojang 开发的一款命令库，最初用于解析 Minecraft 游戏中的命令。该库提供了一系列方便快捷的方法帮助构建命令树、自动生成帮助、权限鉴别、命令执行、参数、命令提示等。
 
 添加命令：register
-----------------
+------------------
+
 你可以使用 :code:`CommandDispatcher<CommandSource>.register()` 来注册命令。
 
 .. tabs::
 
-   .. code-tab:: kotlin Kotlin
+   .. code-tab:: kotlin
 
         client.eventManager.dispatcher.run {
             register(/*...*/)
          }
 
-   .. code-tab:: java Java
+   .. code-tab:: java
 
         var dispatcher = client.eventManager.dispatcher;
         dispatcher.register(/*...*/);
 
 执行命令：executes
-----------------
-使用:code:`executes`描述您的命令如何执行
+-------------------
 
-这里是用了:code:``
+使用 :code:`executes` 描述您的命令如何执行
 
 .. tabs::
 
-   .. code-tab:: kotlin Kotlin
+   .. code-tab:: kotlin
 
         dispatcher.register(
             LiteralArgumentBuilder.literal<CommandSource?>("test") // kotlin 需要泛型参数
@@ -40,7 +40,7 @@ Brigadier 是 Mojang 开发的一款命令库，最初用于解析 Minecraft 游
             }
         )
 
-   .. code-tab:: java Java
+   .. code-tab:: java
 
          client.eventManager.dispatcher.register(LiteralArgumentBuilder.literal("test")
             .executes (context -> { // context: CommandContext<CommandSource>
@@ -52,21 +52,23 @@ Brigadier 是 Mojang 开发的一款命令库，最初用于解析 Minecraft 游
 现在，你可以使用 :code:`/test` 来执行这个命令
 
 命令源：CommandSource
----------
+---------------------
+
 表示谁执行了命令。
 
 你可以用 :code:`context.getSource` 来获取命令源。
 
-当type为Console时，命令源是控制台，拥有root权限，无视权限检查。
+当 type 为 Console 时，命令源是控制台，拥有 root 权限，无视权限检查。
 
-当type为Private时，命令源时私聊，private字段非null
+当 type 为 Private 时，命令源时私聊，private 字段非 null
 
-当type为Channel时，命令源是频道，channel和user字段非null
+当 type 为 Channel 时，命令源是频道，channel 和 user 字段非 null
 
-timestamp字段永远非null，是消息的timestamp或控制台输入的时间
+timestamp 字段永远非 null，是消息的 timestamp 或控制台输入的时间
 
 命令树介绍
-------
+----------
+
 当你输入一串命令 :code:`/say 啊吧啊吧` ，试想它是如何被执行的？
 首先，dispatcher发现了前缀 :code:`/` ，认为这是一个命令。
 然后找到了say命令，发现它接受一个string类型的参数，所以 :code:`啊吧啊吧` 被认为是一个参数。
@@ -79,10 +81,12 @@ timestamp字段永远非null，是消息的timestamp或控制台输入的时间
 接下来，请牢记这个知识点，它将在后续的章节中被用到。
 
 then: 命令树的树枝
-------
+------------------
+
 前面我们了解了命令树，考虑这种情况：
 
-::
+.. code-block:: text
+
     register: /test
     Situation 1: /test greet <message>
     Situation 2: /test save <filename> <content>
@@ -93,7 +97,7 @@ then: 命令树的树枝
 
 .. tabs::
 
-   .. code-tab:: kotlin Kotlin
+   .. code-tab:: kotlin
 
         dispatcher.register(
             LiteralArgumentBuilder.literal<CommandSource?>("test") // kotlin 需要泛型参数
@@ -116,7 +120,7 @@ then: 命令树的树枝
             )
         )
 
-   .. code-tab:: java Java
+   .. code-tab:: java
 
          client.eventManager.dispatcher.register(LiteralArgumentBuilder.literal("test")
             .executes (context -> { // context: CommandContext<CommandSource>
@@ -139,13 +143,15 @@ then: 命令树的树枝
         )
 
 literal: 文本常量
-------
-柑橘前面的例子，或许你已经明白了：:code:`LiteralArgumentBuilder.literal("text")`是新建一个文本常量，这个文本常量是一个命令树的节点。
+-----------------
+
+柑橘前面的例子，或许你已经明白了：:code:`LiteralArgumentBuilder.literal("text")` 是新建一个文本常量，这个文本常量是一个命令树的节点。
 
 如果用户输入匹配到了这个节点，他就会进入命令树的这一分枝。
 
 添加参数: RequiredArgumentBuilder
---------------------------------
+----------------------------------
+
 接下来，你的命令需要参数了！
 
 参数需要 :code:`then(...)` 中添加argument的分支。argument有一个类型信息。
@@ -190,26 +196,26 @@ literal: 文本常量
     ============= ==================================== ========================================================
 
 让控制台的输入以命令方式执行
------------------------
+----------------------------
 
 使用 :code:`client.eventManager.parseCommand(String command)` 可以让dispatcher执行命令，且命令源为控制台。
 
 获取命令树的节点
-------
+----------------
 
 参见 `官方文档 <https://github.com/Mojang/brigadier#usage>`_ 
 
 模拟执行命令
-------
+------------
 
 请使用 :code:`dispatcher.execute()`
 
 生成help
-------
+--------
 
 参见 `Brigadier Docs <https://github.com/Mojang/brigadier#displaying-usage-info>`_
 
 权限系统
-------
+--------
 
 摸鱼ing
