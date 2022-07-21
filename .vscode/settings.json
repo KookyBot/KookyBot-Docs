@@ -1,5 +1,6 @@
 {
     "conventionalCommits.scopes": [
-        "quick-start"
+        "quick-start",
+        "locale/en"
     ]
 }

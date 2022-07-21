@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022 KookyBot organization, zly2006, Cubik65536, and
+# contributors
+# This file is distributed under the same license as the KookyBot package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: KookyBot \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-20 19:58-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../console/index.md:1
+msgid "KookyConsole"
+msgstr ""
+
+#: ../console/index.md:3
+msgid "注意：以下内容还在开发或还在试验阶段中，敬请期待，"
+msgstr ""
+
+#: ../console/index.md:5
+msgid "这是什么？"
+msgstr ""
+
+#: ../console/index.md:7
+msgid "KookyConsole是一个KookyBot SDK的控制台版本，它支持像KookyBot那样的调用，并且允许你的诚心不作为插件被同一调用。"
+msgstr ""
+
+#: ../console/index.md:9
+msgid "我该怎么使用？"
+msgstr ""
+
+#: ../console/index.md:11
+msgid "按照下面的步骤，体会KookyConsole的便捷性和可拓展性吧！"
+msgstr ""
+
+#: ../console/index.md:13
+msgid "添加依赖"
+msgstr ""
+
+#: ../console/index.md:14
+msgid "什么是插件"
+msgstr ""
+
+#: ../console/index.md:15
+msgid "填写plugin.yml"
+msgstr ""
+
+#: ../console/index.md:16
+msgid "实现Plugin抽象类"
+msgstr ""
+
+#: ../console/index.md:17
+msgid "onEnable()和插件依赖关系"
+msgstr ""
+
+#: ../console/index.md:18
+msgid "顺利执行"
+msgstr ""
+
+#: ../console/index.md:20
+msgid "这有什么好处？"
+msgstr ""
+
+#: ../console/index.md:22
+msgid "可以让同一个机器人同时实现多个插件提供的功能，同时免去管理client的烦恼。 <br/> 同时，自动化的config等诸多特性等您探索！"
+msgstr ""
+

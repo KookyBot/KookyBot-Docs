@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KookyBot \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-14 12:39-0400\n"
+"POT-Creation-Date: 2022-07-20 19:58-0400\n"
 "PO-Revision-Date: 2022-07-13 23:12-0400\n"
 "Last-Translator: Cubik65536 <cubik65536@cubik65536.top>\n"
 "Language: en\n"
@@ -91,8 +91,8 @@ msgstr ""
 
 #: ../quick-start/index.rst
 msgid ""
-"请将版本 tag（下文中的 :code:`0.1.3-SNAPSHOT`\\ ）改为 :code:`master-"
-"SNAPSHOT`\\（基于主分支最新 commit 的构建）或者 commit 哈希"
+"请将版本 tag（下文中的 :code:`0.2.1`\\ ）改为 :code:`master-SNAPSHOT`\\（基于主分支最新 "
+"commit 的构建）或者 commit 哈希"
 msgstr ""
 
 #: ../quick-start/index.rst:142
@@ -122,7 +122,7 @@ msgid ""
 "<https://github.com/KookyBot/KookyBotDemoJava/blob/main/src/main/java/io/github/kookybot/Main.java>`_"
 msgstr ""
 
-#: ../quick-start/index.rst:235
+#: ../quick-start/index.rst:239
 msgid ""
 "现在，将机器人邀请到您的服务器中，并在频道中发送 :code:`hello`\\  试试看！您也可以发送 :code:`/help`\\  "
 "命令来获取默认命令帮助。"
