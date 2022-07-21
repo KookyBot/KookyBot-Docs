@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KookyBot \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-21 12:24-0400\n"
+"POT-Creation-Date: 2022-07-21 12:41-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,274 +18,276 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
 
-#: ../core/command.rst:2
+#: ../core/command/index.rst:2
 msgid "命令机制: Brigadier 以及如何使用它"
 msgstr ""
 
-#: ../core/command.rst:4
+#: ../core/command/index.rst:4
 msgid ""
 "关于 Brigadier 用法也可以查看 `官方文档 <https://github.com/Mojang/brigadier#usage>`_ "
 "，但是这里的也许更有用一点。"
 msgstr ""
 
-#: ../core/command.rst:6
+#: ../core/command/index.rst:6
 msgid ""
 "Brigadier 是 Mojang 开发的一款命令库，最初用于解析 Minecraft "
 "游戏中的命令。该库提供了一系列方便快捷的方法帮助构建命令树、自动生成帮助、权限鉴别、命令执行、参数、命令提示等。"
 msgstr ""
 
-#: ../core/command.rst:9
+#: ../core/command/index.rst:9
 msgid "添加命令：register"
 msgstr ""
 
-#: ../core/command.rst:11
+#: ../core/command/index.rst:11
 msgid "你可以使用 :code:`CommandDispatcher<CommandSource>.register()` 来注册命令。"
 msgstr ""
 
-#: ../core/command.rst:27
+#: ../core/command/index.rst:27
 msgid "执行命令：executes"
 msgstr ""
 
-#: ../core/command.rst:29
+#: ../core/command/index.rst:29
 msgid "使用 :code:`executes` 描述您的命令如何执行"
 msgstr ""
 
-#: ../core/command.rst:52
+#: ../core/command/index.rst:52
 msgid "现在，你可以使用 :code:`/test` 来执行这个命令"
 msgstr ""
 
-#: ../core/command.rst:55
+#: ../core/command/index.rst:55
 msgid "命令源：CommandSource"
 msgstr ""
 
-#: ../core/command.rst:57
+#: ../core/command/index.rst:57
 msgid "表示谁执行了命令。"
 msgstr ""
 
-#: ../core/command.rst:59
+#: ../core/command/index.rst:59
 msgid "你可以用 :code:`context.getSource` 来获取命令源。"
 msgstr ""
 
-#: ../core/command.rst:61
+#: ../core/command/index.rst:61
 msgid "当 type 为 Console 时，命令源是控制台，拥有 root 权限，无视权限检查。"
 msgstr ""
 
-#: ../core/command.rst:63
+#: ../core/command/index.rst:63
 msgid "当 type 为 Private 时，命令源时私聊，private 字段非 null"
 msgstr ""
 
-#: ../core/command.rst:65
+#: ../core/command/index.rst:65
 msgid "当 type 为 Channel 时，命令源是频道，channel 和 user 字段非 null"
 msgstr ""
 
-#: ../core/command.rst:67
+#: ../core/command/index.rst:67
 msgid "timestamp 字段永远非 null，是消息的 timestamp 或控制台输入的时间"
 msgstr ""
 
-#: ../core/command.rst:70
+#: ../core/command/index.rst:70
 msgid "命令树介绍"
 msgstr ""
 
-#: ../core/command.rst:72
+#: ../core/command/index.rst:72
 msgid ""
 "当你输入一串命令 :code:`/say 啊吧啊吧` ，试想它是如何被执行的？ 首先，dispatcher发现了前缀 :code:`/` "
 "，认为这是一个命令。 然后找到了say命令，发现它接受一个string类型的参数，所以 :code:`啊吧啊吧` 被认为是一个参数。 "
 "最后，dispatcher找到了一个executes方法，所以 :code:`/say 啊吧啊吧` 被执行了。"
 msgstr ""
 
-#: ../core/command.rst:77
+#: ../core/command/index.rst:77
 msgid ""
 "这个过程中的每一步都是被认为是一个命令树节点，并且每一个节点都可以有自己的子节点，于是所有节点构成了一颗命令树。 "
 "当你执行命令后，dispatcher将解析它，并在命令树中寻找合适的节点， "
 "调用那个节点的executes函数执行命令（这也是executes的底层原理）"
 msgstr ""
 
-#: ../core/command.rst:81
+#: ../core/command/index.rst:81
 msgid "接下来，请牢记这个知识点，它将在后续的章节中被用到。"
 msgstr ""
 
-#: ../core/command.rst:84
+#: ../core/command/index.rst:84
 msgid "then: 命令树的树枝"
 msgstr ""
 
-#: ../core/command.rst:86
+#: ../core/command/index.rst:86
 msgid "前面我们了解了命令树，考虑这种情况："
 msgstr ""
 
-#: ../core/command.rst:94
+#: ../core/command/index.rst:94
 msgid "那么，我们怎么实现不同的命令树节点呢？"
 msgstr ""
 
-#: ../core/command.rst:96
+#: ../core/command/index.rst:96
 msgid "答案是 :code:`then`"
 msgstr ""
 
-#: ../core/command.rst:146
+#: ../core/command/index.rst:146
 msgid "literal: 文本常量"
 msgstr ""
 
-#: ../core/command.rst:148
+#: ../core/command/index.rst:148
 msgid ""
 "柑橘前面的例子，或许你已经明白了：:code:`LiteralArgumentBuilder.literal(\"text\")` "
 "是新建一个文本常量，这个文本常量是一个命令树的节点。"
 msgstr ""
 
-#: ../core/command.rst:150
+#: ../core/command/index.rst:150
 msgid "如果用户输入匹配到了这个节点，他就会进入命令树的这一分枝。"
 msgstr ""
 
-#: ../core/command.rst:153
+#: ../core/command/index.rst:153
 msgid "添加参数: RequiredArgumentBuilder"
 msgstr ""
 
-#: ../core/command.rst:155
+#: ../core/command/index.rst:155
 msgid "接下来，你的命令需要参数了！"
 msgstr ""
 
-#: ../core/command.rst:157
+#: ../core/command/index.rst:157
 msgid "参数需要 :code:`then(...)` 中添加argument的分支。argument有一个类型信息。"
 msgstr ""
 
-#: ../core/command.rst:159
+#: ../core/command/index.rst:159
 msgid "栗子"
 msgstr ""
 
-#: ../core/command.rst:177
+#: ../core/command/index.rst:177
 msgid "请注意以下几点："
 msgstr ""
 
-#: ../core/command.rst:179
+#: ../core/command/index.rst:179
 msgid "Kotlin由于null安全原因，有时候必须制定泛型参数，请根据ide提示自行添加。"
 msgstr ""
 
-#: ../core/command.rst:180
+#: ../core/command/index.rst:180
 msgid ""
 ":code:`StringArgumentType.getString` "
 "是一个静态方法。KookyBot内置的所有ArgumentType均包括类似方法。"
 msgstr ""
 
-#: ../core/command.rst:181
+#: ../core/command/index.rst:181
 msgid "支持的ArgumentType见下表："
 msgstr ""
 
-#: ../core/command.rst:186
+#: ../core/command/index.rst:186
 msgid "来源"
 msgstr ""
 
-#: ../core/command.rst:186
+#: ../core/command/index.rst:186
 msgid "名称"
 msgstr ""
 
-#: ../core/command.rst:186
+#: ../core/command/index.rst:186
 msgid "获取方法"
 msgstr ""
 
-#: ../core/command.rst:188 ../core/command.rst:189 ../core/command.rst:190
-#: ../core/command.rst:191 ../core/command.rst:192 ../core/command.rst:193
+#: ../core/command/index.rst:188 ../core/command/index.rst:189
+#: ../core/command/index.rst:190 ../core/command/index.rst:191
+#: ../core/command/index.rst:192 ../core/command/index.rst:193
 msgid "Brigadier"
 msgstr ""
 
-#: ../core/command.rst:188
+#: ../core/command/index.rst:188
 msgid "StringArgumentType.word"
 msgstr ""
 
-#: ../core/command.rst:188 ../core/command.rst:189 ../core/command.rst:190
+#: ../core/command/index.rst:188 ../core/command/index.rst:189
+#: ../core/command/index.rst:190
 msgid "StringArgumentType.getString"
 msgstr ""
 
-#: ../core/command.rst:189
+#: ../core/command/index.rst:189
 msgid "StringArgumentType.string"
 msgstr ""
 
-#: ../core/command.rst:190
+#: ../core/command/index.rst:190
 msgid "StringArgumentType.greedyString"
 msgstr ""
 
-#: ../core/command.rst:191
+#: ../core/command/index.rst:191
 msgid "IntegerArgumentType.integer"
 msgstr ""
 
-#: ../core/command.rst:191
+#: ../core/command/index.rst:191
 msgid "IntegerArgumentType.getInteger"
 msgstr ""
 
-#: ../core/command.rst:192
+#: ../core/command/index.rst:192
 msgid "BoolArgumentType.bool"
 msgstr ""
 
-#: ../core/command.rst:192
+#: ../core/command/index.rst:192
 msgid "BoolArgumentType.getBool"
 msgstr ""
 
-#: ../core/command.rst:193
+#: ../core/command/index.rst:193
 msgid "FloatArgumentType.floatArg"
 msgstr ""
 
-#: ../core/command.rst:193
+#: ../core/command/index.rst:193
 msgid "FloatArgumentType.getFloat"
 msgstr ""
 
-#: ../core/command.rst:194 ../core/command.rst:195
+#: ../core/command/index.rst:194 ../core/command/index.rst:195
 msgid "KookyBot"
 msgstr ""
 
-#: ../core/command.rst:194
+#: ../core/command/index.rst:194
 msgid "StringListArgumentType.stringList"
 msgstr ""
 
-#: ../core/command.rst:194
+#: ../core/command/index.rst:194
 msgid "StringListArgumentType.getStringList"
 msgstr ""
 
-#: ../core/command.rst:195
+#: ../core/command/index.rst:195
 msgid "UserArgumentType.id"
 msgstr ""
 
-#: ../core/command.rst:195
+#: ../core/command/index.rst:195
 msgid "UserArgumentType.getId /\\*将(met)id(met)解析为id\\*/"
 msgstr ""
 
-#: ../core/command.rst:199
+#: ../core/command/index.rst:199
 msgid "让控制台的输入以命令方式执行"
 msgstr ""
 
-#: ../core/command.rst:201
+#: ../core/command/index.rst:201
 msgid ""
 "使用 :code:`client.eventManager.parseCommand(String command)` "
 "可以让dispatcher执行命令，且命令源为控制台。"
 msgstr ""
 
-#: ../core/command.rst:204
+#: ../core/command/index.rst:204
 msgid "获取命令树的节点"
 msgstr ""
 
-#: ../core/command.rst:206
+#: ../core/command/index.rst:206
 msgid "参见 `官方文档 <https://github.com/Mojang/brigadier#usage>`_"
 msgstr ""
 
-#: ../core/command.rst:209
+#: ../core/command/index.rst:209
 msgid "模拟执行命令"
 msgstr ""
 
-#: ../core/command.rst:211
+#: ../core/command/index.rst:211
 msgid "请使用 :code:`dispatcher.execute()`"
 msgstr ""
 
-#: ../core/command.rst:214
+#: ../core/command/index.rst:214
 msgid "生成help"
 msgstr ""
 
-#: ../core/command.rst:216
+#: ../core/command/index.rst:216
 msgid ""
 "参见 `Brigadier Docs <https://github.com/Mojang/brigadier#displaying-usage-"
 "info>`_"
 msgstr ""
 
-#: ../core/command.rst:219
+#: ../core/command/index.rst:219
 msgid "权限系统"
 msgstr ""
 
-#: ../core/command.rst:221
+#: ../core/command/index.rst:221
 msgid "摸鱼ing"
 msgstr ""
 
