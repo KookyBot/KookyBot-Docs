@@ -14,6 +14,7 @@ KookyBot - JVM 平台上的 KOOK (原开黑啦) Bot SDK
    core/event/index
    core/command
    console/index
+   contributing/docs/index
 
 --------------
 
