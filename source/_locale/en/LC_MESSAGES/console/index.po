@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KookyBot \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-20 20:06-0400\n"
+"POT-Creation-Date: 2022-07-20 21:17-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,15 +53,15 @@ msgid "什么是插件"
 msgstr ""
 
 #: ../console/index.md:15
-msgid "填写plugin.yml"
+msgid "填写 plugin.yml"
 msgstr ""
 
 #: ../console/index.md:16
-msgid "实现Plugin抽象类"
+msgid "实现 Plugin 抽象类"
 msgstr ""
 
 #: ../console/index.md:17
-msgid "onEnable()和插件依赖关系"
+msgid "onEnable() 和插件依赖关系"
 msgstr ""
 
 #: ../console/index.md:18
@@ -73,6 +73,6 @@ msgid "这有什么好处？"
 msgstr ""
 
 #: ../console/index.md:22
-msgid "可以让同一个机器人同时实现多个插件提供的功能，同时免去管理client的烦恼。 <br/> 同时，自动化的config等诸多特性等您探索！"
+msgid "可以让同一个机器人同时实现多个插件提供的功能，同时免去管理 client 的烦恼。 <br/> 同时，自动化的 config 等诸多特性等您探索！"
 msgstr ""
 
