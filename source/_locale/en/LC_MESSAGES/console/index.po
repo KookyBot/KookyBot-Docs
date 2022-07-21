@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KookyBot \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-20 19:58-0400\n"
+"POT-Creation-Date: 2022-07-20 20:06-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,9 @@ msgid "这是什么？"
 msgstr ""
 
 #: ../console/index.md:7
-msgid "KookyConsole是一个KookyBot SDK的控制台版本，它支持像KookyBot那样的调用，并且允许你的诚心不作为插件被同一调用。"
+msgid ""
+"KookyConsole 是一个 KookyBot SDK 的控制台版本，它支持类似 KookyBot SDK "
+"的函数调用，并且允许你的程序被作为插件被统一调用。"
 msgstr ""
 
 #: ../console/index.md:9

@@ -4,7 +4,7 @@
 
 ## 这是什么？
 
-KookyConsole是一个KookyBot SDK的控制台版本，它支持像KookyBot那样的调用，并且允许你的诚心不作为插件被同一调用。
+KookyConsole 是一个 KookyBot SDK 的控制台版本，它支持类似 KookyBot SDK 的函数调用，并且允许你的程序被作为插件被统一调用。
 
 ## 我该怎么使用？
 
