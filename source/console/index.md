@@ -12,13 +12,13 @@ KookyConsole 是一个 KookyBot SDK 的控制台版本，它支持类似 KookyBo
 
 - 添加依赖
 - 什么是插件
-- 填写plugin.yml
-- 实现Plugin抽象类
-- onEnable()和插件依赖关系
+- 填写 plugin.yml
+- 实现 Plugin 抽象类
+- onEnable() 和插件依赖关系
 - 顺利执行
 
 ## 这有什么好处？
 
-可以让同一个机器人同时实现多个插件提供的功能，同时免去管理client的烦恼。
+可以让同一个机器人同时实现多个插件提供的功能，同时免去管理 client 的烦恼。
 <br/>
-同时，自动化的config等诸多特性等您探索！
+同时，自动化的 config 等诸多特性等您探索！
