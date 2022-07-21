@@ -1,6 +1,7 @@
 {
     "conventionalCommits.scopes": [
         "quick-start",
-        "locale/en"
+        "locale/en",
+        "contributing/docs"
     ]
 }

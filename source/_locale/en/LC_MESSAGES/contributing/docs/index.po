@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KookyBot \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-20 21:18-0400\n"
+"POT-Creation-Date: 2022-07-21 12:24-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,8 +70,8 @@ msgstr ""
 
 #: ../contributing/docs/index.md:17
 msgid ""
-"不管使用何种格式，在使用多行代码块（无论多行或单行）时**必须**使用 4 个空格的缩进，且代码块的格式化语言与实际语言相匹配（纯文字内容可以写为"
-" `text`）。"
+"不管使用何种格式，在使用多行代码块（无论多行或单行）时**必须**使用 4 "
+"个空格的缩进，且代码块的格式化语言与实际语言相匹配（纯文字内容**不得**留白，格式化语言需要写为 `text`）。"
 msgstr ""
 
 #: ../contributing/docs/index.md:18
