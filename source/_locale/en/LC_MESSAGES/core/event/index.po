@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KookyBot \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-20 21:17-0400\n"
+"POT-Creation-Date: 2022-07-20 21:35-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgid "事件监听器的基本类型"
 msgstr ""
 
 #: ../core/event/index.md:7
-msgid "KookyBot支持这些事件监听器:"
+msgid "KookyBot 支持这些事件监听器:"
 msgstr ""
 
 #: ../core/event/index.md
@@ -67,7 +67,7 @@ msgid "多个方法一起监听，自由度更高"
 msgstr ""
 
 #: ../core/event/index.md
-msgid "继承Listener"
+msgid "继承 Listener"
 msgstr ""
 
 #: ../core/event/index.md
@@ -81,7 +81,7 @@ msgid ""
 msgstr ""
 
 #: ../core/event/index.md
-msgid "设置onclick参数即可"
+msgid "设置 onclick 参数即可"
 msgstr ""
 
 #: ../core/event/index.md
