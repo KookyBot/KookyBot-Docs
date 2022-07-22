@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KookyBot \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-20 21:35-0400\n"
+"POT-Creation-Date: 2022-07-22 14:21-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -93,7 +93,7 @@ msgid "由 Brigadier 提供的构建+提示+执行命令系统"
 msgstr ""
 
 #: ../core/event/index.md
-msgid "client.addCommand<br/>参见 [命令机制: Brigadier 以及如何使用它](../command)"
+msgid "client.addCommand<br/>参见 [命令机制: Brigadier 以及如何使用它](../command/index)"
 msgstr ""
 
 #: ../core/event/index.md:16
