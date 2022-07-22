@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022 KookyBot organization, zly2006, Cubik65536, and
+# contributors
+# This file is distributed under the same license as the KookyBot package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: KookyBot \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-22 14:21-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../contributing/codes/index.md:1
+msgid "贡献指南 - 代码"
+msgstr ""
+
+#: ../contributing/codes/index.md:3
+msgid ""
+"本文将会详细指导您如何向 [KookyBot "
+"主代码仓库](https://github.com/KookyBot/KookyBot)贡献内容/代码。"
+msgstr ""
+
+#: ../contributing/codes/index.md:5
+msgid ""
+"如果您想要向 KookyBot 贡献代码，请确保您仔细阅读了本文中的**所有内容**。不符合要求的 PR 将会被拒绝，多次提交不符合要求的 PR "
+"将会使您被封禁。"
+msgstr ""
+
+#: ../contributing/codes/index.md:7
+msgid "代码格式约定"
+msgstr ""
+
+#: ../contributing/codes/index.md:9
+msgid "使用 4 个空格缩进代码，而不是使用 _tabs_。"
+msgstr ""
+
+#: ../contributing/codes/index.md:10
+msgid "一行不应超过 80 个字符，如果超过了，请将代码/注释拆分成多行。"
+msgstr ""
+
+#: ../contributing/codes/index.md:11
+msgid "使用空格分割运算符，例如：使用 `a + b` 而不是 `a+b`。"
+msgstr ""
+
+#: ../contributing/codes/index.md:12
+msgid "开始函数的第一个大括号应该被放在函数声明后面，用一个空格分割，例如："
+msgstr ""
+
+#: ../contributing/codes/index.md:14
+msgid "使用："
+msgstr ""
+
+#: ../contributing/codes/index.md:22
+msgid "而非："
+msgstr ""
+
+#: ../contributing/codes/index.md:31
+msgid "不要重复无用功"
+msgstr ""
+
+#: ../contributing/codes/index.md:32
+msgid "[三次法则 (程序设计)](https://zh.wikipedia.org/wiki/三次法则_(程序设计))"
+msgstr ""
+
+#: ../contributing/codes/index.md:34
+msgid "Commit 信息格式规范"
+msgstr ""
+
+#: ../contributing/codes/index.md:36
+msgid ""
+"您的 commit 信息必须（MUST）遵循[约定式提交](https://www.conventionalcommits.org/zh-"
+"hans/v1.0.0/)。"
+msgstr ""
+
+#: ../contributing/codes/index.md:38
+msgid "Pull Request 信息格式规范"
+msgstr ""
+
+#: ../contributing/codes/index.md:40
+msgid "对于 Pull Request，在具体信息中请写明本次 PR 的目的（做了 **什么** 工作，修复了 **什么** 问题）。"
+msgstr ""
+
+#: ../contributing/codes/index.md:42
+msgid "对于 Pull Request 的标题，推荐使用如下格式书写："
+msgstr ""
+
+#: ../contributing/codes/index.md:48
+msgid "修改类型以及示例可以参考[约定式提交](https://www.conventionalcommits.org/zh-hans/v1.0.0/)。"
+msgstr ""
+
